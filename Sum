@@ -1,0 +1,7 @@
+def main()
+ n1 = input("enter 1st no.")
+ n1 = int(n1)
+ n2 = input("enter 2nd no.")
+ n2 = int(n2)
+ sum = n1 + n2
+ print("sum is", sum)
