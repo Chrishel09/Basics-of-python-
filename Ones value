@@ -1,0 +1,6 @@
+def main():
+  num = int(input("enter a number"))
+  ones_value(num)
+def ones_value(num):
+   print("ones digit is", num % 10)
+ main()
