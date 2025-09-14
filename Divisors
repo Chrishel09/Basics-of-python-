@@ -1,0 +1,8 @@
+def main():
+  num = input("Enter a number")
+  print("Here are the divisors of",num)
+  for i in range(num+1):
+      if num % i ==0:
+         print(i)
+main()
+     
