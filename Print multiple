@@ -1,0 +1,8 @@
+def print_multiple(message,repeats):
+  for i in range(1,repeat+1):
+    print(message)
+def main():
+  message= input("please type a message")
+  repeats= int(input("enter the number of times to repeat the message"))
+  print_multiple(message, repeats)
+main()
