@@ -1,0 +1,8 @@
+list = []
+a = input("name your 1st favorite movies ")
+b = input("name your 2nd favorite movies ")
+list.append(input("name your 3rd favorite movies "))
+list.append(a)
+list.append(b)
+//list.append(c)
+print("your favorite movies are",list)
