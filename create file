@@ -1,0 +1,10 @@
+import os
+if not os.path.exists('num'):
+    os.mkdir('num')
+with open('num/file1.txt','w') as file1:
+    file1.write('VTU')
+with open('num/file2.txt','w') as file2:
+    file2.write('UNI')
+with open('num/file1.txt','r') as file1,open('num/file2.txt','r') as file2, open('num/file3.txt','w') as file3:
+    content = file1.read()+file2.read()
+    file3.write(content)
